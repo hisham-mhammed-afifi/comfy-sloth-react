@@ -108,7 +108,9 @@ p {
   color: var(--clr-grey-3);
 }
 input,
-input:focus {
+input:focus,
+select,
+select:focus {
   outline: none;
 }
 @media screen and (min-width: 800px) {
