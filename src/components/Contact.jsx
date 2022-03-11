@@ -17,11 +17,7 @@ const Contact = () => {
             method="POST"
             className="contact-form"
           >
-            <input
-              type="email"
-              placeholder="Enter Email..."
-              className="form-input"
-            />
+            <input type="email" placeholder="Email..." className="form-input" />
             <button type="submit" className="submit-btn">
               Submit
             </button>
