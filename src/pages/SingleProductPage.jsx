@@ -30,10 +30,12 @@ const SingleProductPage = () => {
         history.push("/");
       }, 3000);
     }
+    // eslint-disable-next-line
   }, [error]);
 
   useEffect(() => {
     fetchSingleProduct(`${url}${productId}`);
+    // eslint-disable-next-line
   }, [productId]);
 
   if (loading) {
